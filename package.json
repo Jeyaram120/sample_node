@@ -11,6 +11,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://jeyaram120.github.io/sample_node.git/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
